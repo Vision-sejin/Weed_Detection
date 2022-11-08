@@ -8,15 +8,17 @@ And if you want to visualize the prediction and gt bbox and name, then you can u
 or if you want to check the iou, then you can just use notimage.py
 
 
-<Train>
+
+#Train
 python tools/train.py configs/yolox/yolox_s_8x8_300e_coco.py --gpu-id 1
 
 
 
-<Test>
+
+#Test
 python tools/test.py configs/yolof/yolof_r50_c5_8x8_1x_coco.py work_dirs/yolof_r50_c5_8x8_1x_coco/epoch_12.pth --show-dir ../../../8T/yolof_result
 
 
 
-<Visualization>
+#Visualization
 python visualization.py # in ./visualization/*
