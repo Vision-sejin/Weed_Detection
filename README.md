@@ -3,6 +3,7 @@ Hello it is for Weed Detection with MMDet
 I train the weed with yolof and the result is ./epoch_12.pth
 
 I use weed data in "aihub.or.kr" weed data.
+And our base code(but changed) is from "https://github.com/open-mmlab/mmdetection"
 
 As you see, the result example is 'result_example.jpg'
 
