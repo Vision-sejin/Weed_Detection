@@ -4,6 +4,8 @@ I train the weed with yolof and the result is ./epoch_12.pth
 
 I use weed data in "aihub.or.kr" weed data.
 
+As you see, the result example is 'result_example.jpg'
+
 And if you want to visualize the prediction and gt bbox and name, then you can use visualization.py 
 or if you want to check the iou, then you can just use notimage.py
 
