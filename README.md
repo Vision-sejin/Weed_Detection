@@ -1,0 +1,20 @@
+Hello it is for Weed Detection with MMDet
+
+I train the weed with yolof and the result is ./epoch_12.pth
+
+I use weed data in "aihub.or.kr" weed data.
+
+And if you want to visualize the prediction and gt bbox and name, then you can use visualization.py 
+or if you want to check the iou, then you can just use notimage.py
+
+
+############Train
+python tools/train.py configs/yolox/yolox_s_8x8_300e_coco.py --gpu-id 1
+
+
+
+############Test
+python tools/test.py configs/yolof/yolof_r50_c5_8x8_1x_coco.py work_dirs/yolof_r50_c5_8x8_1x_coco/epoch_12.pth --show-dir ../../../8T/yolof_result
+
+############Visualization
+python visualization.py # in ./visualization/*
