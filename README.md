@@ -15,7 +15,6 @@ And if you want to visualize the prediction and gt bbox and name, then you can u
 or if you want to check only iou, then you can just use notimage.py
 #you need little change another code 
 
-a
 
 #Train
 python tools/train.py configs/yolox/yolox_s_8x8_300e_coco.py --gpu-id 1
