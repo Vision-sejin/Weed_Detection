@@ -1,7 +1,7 @@
 Hello it is for Weed Detection with MMDet
 
 I train the weed with yolof and the result is ./epoch_12.pth("https://drive.google.com/file/d/1Kl4gvwLpAhN53-wmJOL1h4WtDng9DlAt/view?usp=sharing)
-# if you want, apply to me
+if you want, apply to me
 
 
 I use weed data from "https://www.aihub.or.kr/" (weed data)
